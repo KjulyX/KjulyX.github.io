@@ -225,14 +225,14 @@ hr {
 }
 
 footer {
-  width:400px;
-  float:left;
-  position:fixed;
-  bottom:30px;
+  background: #fff;
+  width: 860px;
+  position: fixed;
+  bottom: 0;
 }
 
 footer p {
-  text-align: right;
+  text-align: center;
 }
 
 @media print, screen and (max-width: 960px) {
