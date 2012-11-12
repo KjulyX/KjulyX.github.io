@@ -105,7 +105,7 @@ img {
 }
 
 header {
-  width:350px;
+  width:400px;
   float:left;
   position:fixed;
 }
@@ -122,6 +122,10 @@ header p {
 
 header p a img {
   margin: 10px;
+}
+
+header div {
+  text-align: center;
 }
 
 header ul {
@@ -190,7 +194,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:460px;
   float:right;
   padding-bottom:50px;
 }
@@ -221,7 +225,7 @@ hr {
 }
 
 footer {
-  width:350px;
+  width:400px;
   float:left;
   position:fixed;
   bottom:30px;
