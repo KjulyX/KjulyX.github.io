@@ -125,7 +125,8 @@ header p a img {
 }
 
 header div {
-  text-align: center;
+  text-align: right;
+  padding-right: 1em;
 }
 
 header ul {
