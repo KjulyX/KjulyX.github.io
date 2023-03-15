@@ -1,1 +1,7 @@
 google.com, pub-8230638381776158, DIRECT, f08c47fec0942fa0
+onetag.com, 7d87672a33b35f8, DIRECT
+onetag.com, 7d87672a33b35f8-OB, DIRECT
+appnexus.com, 13099, RESELLER
+yahoo.com, 58905, RESELLER, e1a5b5b6e3255540
+pubmatic.com, 161593, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
