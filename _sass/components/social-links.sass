@@ -1,0 +1,42 @@
+.social-links
+    border-top: 1px solid $color-border
+    padding: 20px 0
+    margin: 0
+    color: $color-content-secondary
+    font-weight: $thin-font
+    text-align: center
+    position: relative
+
+    &:before
+        display: block
+        content: " "
+        width: 7px
+        height: 7px
+        border: $color-border 1px solid
+        position: absolute
+        top: -5px
+        left: 50%
+        margin-left: -5px
+        background: $color-background
+        box-shadow: $color-background 0 0 0 5px
+        border-radius: 3px
+
+    > .link
+        margin: 0
+        text-decoration: none
+        position: relative
+        display: inline-block
+        height: 36px
+        width: 36px
+        color: $color-content
+
+        > svg
+            width: 18px
+            height: 18px
+
+        &:hover
+            > svg
+                color: $color-link
+
+    > svg
+        transition: all ease-in-out .2s

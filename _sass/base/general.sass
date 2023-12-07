@@ -1,0 +1,76 @@
+body, html
+	font-size: 62.5%
+	height: 100%
+	overflow: hidden
+
+body
+	font: 16px $fontSans
+	color: $alpha
+	background: $color-background
+
+h1, h2, h3, h4
+	font-family: $fontSans
+	color: $beta
+	-webkit-font-smoothing: antialiased
+	text-rendering: optimizeLegibility
+
+h1
+	font-size: 3rem
+	letter-spacing: -1px
+	color: $beta
+	font-weight: 700
+
+h2
+	font-size: 2.2rem
+
+h3
+	font-size: 2rem
+
+h4
+	font-size: 1.6rem
+
+a
+	color: $color-link
+	text-decoration: underline
+	font-weight: $thin-font
+
+p
+	line-height: 1.7
+	color: $alpha
+	font-weight: 300
+	margin-bottom: 20px
+	letter-spacing: 0.4px
+
+	@media #{$mobile}
+		letter-spacing: 0.2px
+
+strong
+	font-weight: 400
+	color: $color-content
+
+ul
+	li
+		line-height: 2.4rem
+		font-weight: 300
+		color: $alpha
+
+img
+	max-width: 100%
+
+.wrapper-normal,
+.wrapper-large
+	height: 100%
+	width: 100%
+	margin: 0 auto
+
+	@media #{$mobile}
+		width: 88%
+
+	@media #{$tablet}
+		width: 88%
+
+.wrapper-normal
+	max-width: 560px
+
+.wrapper-large
+	max-width: 810px

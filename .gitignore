@@ -1,3 +1,11 @@
 .DS_Store
 *~
 .*.sw[po]
+
+_site
+.sass-cache
+.bundle
+
+Gemfile.lock
+vendor/
+_tmp/
