@@ -1,4 +1,3 @@
-# main text of home
 title: Kjuly
 bio: Hi there, welcome to try my product.
 description: Personal website.
@@ -26,10 +25,11 @@ compress_html:
       - development
       - stage
 
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "vendor",
-  ]
+exclude: [
+  "README.md",
+  "Gemfile",
+  "Gemfile.lock",
+  "vendor",
+  "Dockerfile",
+  "compose.yaml",
+]
