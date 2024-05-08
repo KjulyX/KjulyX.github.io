@@ -1,0 +1,12 @@
+.DS_Store
+.sw[pop]
+.*.sw[po]
+
+kjuly.com.code-workspace
+LICENSE
+README.md
+ads.txt
+Dockerfile
+compose.yaml
+.env
+sync_exclude.md
