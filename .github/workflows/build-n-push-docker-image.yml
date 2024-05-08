@@ -1,0 +1,36 @@
+name: Build and Push Docker Image
+
+on:
+  workflow_dispatch:
+
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+
+env:
+  IMAGE_NAME: kjuly/ky-env-kjuly-com
+
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+  attestations: write
+
+concurrency:
+  group: "images"
+  cancel-in-progress: false
+
+jobs:
+  build-n-push-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build and Push Image to Github Container Registry
+        uses: kjuly/docker-image-publisher@main
+        with:
+          registry: ghcr.io
+          image_name: ${{ env.IMAGE_NAME }}
+          username: ${{ github.actor }}
+          token: ${{ secrets.GITHUB_TOKEN }}
