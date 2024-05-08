@@ -8,7 +8,7 @@ on:
       - '[0-9]+.[0-9]+.[0-9]+'
 
 env:
-  IMAGE_NAME: kjuly/ky-env-kjuly-com
+  IMAGE_NAME: kjulyx/ky-env-kjuly-com
 
 permissions:
   contents: read
