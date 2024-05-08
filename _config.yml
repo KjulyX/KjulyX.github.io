@@ -25,11 +25,17 @@ compress_html:
       - development
       - stage
 
+keep_files: [
+  "CNAME",
+  "ads.txt",
+]
+
 exclude: [
+  "*.code-workspace",
   "README.md",
-  "Gemfile",
-  "Gemfile.lock",
-  "vendor",
-  "Dockerfile",
-  "compose.yaml",
+  "Gemfile*",
+  "Dockerfile*",
+  "compose*.yaml",
+  "*.sh",
+  "sync_exclude.md",
 ]
