@@ -3,6 +3,7 @@ name: ${APP_NAME}
 services:
   jekyll:
     build: ${SOURCE_DIR}
+    image: ghcr.io/kjulyx/env-kjuly-com:latest
     ports:
       - "8000:${CONTAINER_PORT}"
     working_dir: ${CONTAINER_WORK_DIR}
