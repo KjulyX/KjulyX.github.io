@@ -9,4 +9,4 @@ services:
     working_dir: ${CONTAINER_WORK_DIR}
     volumes:
       - ${VOLUME_SOURCE}:${VOLUME_TARGET}
-    command: bundle exec jekyll serve -H 0.0.0.0 -P ${CONTAINER_PORT}
+    command: bundle exec jekyll serve -H 0.0.0.0 -P ${CONTAINER_PORT} ${JEKYLL_CMD_EXTRA_OPTIONS}

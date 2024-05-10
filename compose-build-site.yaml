@@ -7,4 +7,4 @@ services:
     working_dir: ${CONTAINER_WORK_DIR}
     volumes:
       - ${VOLUME_SOURCE}:${VOLUME_TARGET}
-    command: bundle exec jekyll build
+    command: bundle exec jekyll build ${JEKYLL_CMD_EXTRA_OPTIONS}
