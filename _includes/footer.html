@@ -1,3 +1,6 @@
 <footer class="footer-main">
-    © {{ site.time | date: '%Y' }} Kaijie Yu
+{% if site.cn_icp_number != "" -%}
+    <a class="icp" href="https://beian.miit.gov.cn" target="_blank">{{ site.cn_icp_number }}</a>
+{% endif -%}
+    <div class="copyright">© {{ site.time | date: '%Y' }} Kaijie Yu</div>
 </footer>

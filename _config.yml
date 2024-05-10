@@ -1,17 +1,20 @@
+app_name: Kjuly.com
 title: Kjuly
-bio: Hi there, welcome to try my product.
-description: Personal website.
+description: Products
 
-# your site color theme, true for dark theme, 
-# false to light theme, auto to switch with system.
+# Products
+YeNom_title: YeNom
+YeNom_link: https://yenom.kjuly.com
+Aidem_title: Aidem
+Aidem_link: https://aidem-app.kjuly.com
+
+# true for dark theme, false to light theme, auto to switch with system.
 dark-theme: auto
 
-# do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
 width: normal
 
-# do you want some animations?
 animation: true
 
 plugins:
