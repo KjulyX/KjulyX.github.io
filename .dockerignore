@@ -2,11 +2,12 @@
 .sw[pop]
 .*.sw[po]
 
-kjuly.com.code-workspace
+*.code-workspace
 LICENSE
 README.md
 ads.txt
 Dockerfile
 compose.yaml
 .env
+.dockerignore
 sync_exclude.md
