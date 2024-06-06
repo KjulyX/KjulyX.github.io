@@ -7,6 +7,8 @@ YeNom_title: YeNom
 YeNom_link: https://yenom.kjuly.com
 Aidem_title: Aidem
 Aidem_link: https://aidem-app.kjuly.com
+Swing_title: Swing
+Swing_link: https://swing.news
 
 # true for dark theme, false to light theme, auto to switch with system.
 dark-theme: auto
