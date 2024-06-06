@@ -34,7 +34,7 @@ echo -e "\n  ACTION: ${g}$action${nc}, LANG: ${g}$lang${nc}\n"
 if [ "$action" == "build" ]; then
   COMPOSE_FILE="compose-build-site.yaml"
 
-  docker compose -f "$COMPOSE_FILE" up
+  JEKYLL_CMD_EXTRA_OPTIONS="$jekyll_cmd_extra_options" docker compose -f "$COMPOSE_FILE" up
   docker compose -f "$COMPOSE_FILE" down
 else
   JEKYLL_CMD_EXTRA_OPTIONS="$jekyll_cmd_extra_options" docker compose up
